@@ -27,7 +27,7 @@ Data preparation steps:
   
   - One-hot encode category - Next we need to split categories field into separate field, remove categorical values to leave only numerical 0 or 1 as follows
   
-  ![addproj][./images/code.png]
+  ![addproj](./images/code.png)
   
   - Remove duplicates
   
@@ -45,7 +45,7 @@ Please refer to [ETL notebook](https://github.com/neravdoshi/DisasterResponse/bl
 
 The dataset is highly imbalanced and so the accuracy is high and the recall value is pretty low
 
-Please refer to [ML pipeline](https://github.com/neravdoshi/DisasterResponse/blob/master/models/ML%20Pipeline%20Preparation.ipynb)
+Please refer to [ML pipeline notebook](https://github.com/neravdoshi/DisasterResponse/blob/master/models/ML%20Pipeline%20Preparation.ipynb)
 
 ![modeling](./images/runningModel.png)
 
@@ -78,9 +78,9 @@ This image shows the web app where messages can be classified into different cat
   
   Data-> disaster.db: This file is the database which is used to fetch data whenever needed
   
-**Models:** This folder contains the ML pipeline and the pickle object.
+**Models:** This folder contains the ML pipeline and the pickle object
 
-  Models-> train_classifier.py: This code takes the SQLite database produced by process_data.py as an input and uses the data contained within it to train and     tune a ML model for categorizing messages. The output is a pickle file containing the fitted model. Test evaluation metrics are also printed as part of the       training process.
+  Models-> train_classifier.py: This code takes the SQLite database produced by process_data.py as an input and uses the data contained within it to train and     tune a ML model for categorizing messages. The output is a pickle file containing the fitted model. Test evaluation metrics are also printed as part of the       training process
   
   Models->disaster_ada_model.pkl: This file contains the fitted model so we do not need to fit the model again(note included as file is large)
 
