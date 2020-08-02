@@ -4,7 +4,7 @@ Data Scientist Nana Degree Project - Data Engineering
 This project is part of the Udacity Data Scientist Nanodegree Program: Disaster Response Pipeline Project and the goal was to apply the data engineering skills learned in the course to analyze disaster data from [Figure Eight](https://www.figure-eight.com/dataset/combined-disaster-response-data/) to build a model for an API that classifies disaster messages.
 
 We will follow machine learning lifecycle process to approach this problem
-![addProj](../_attachmnet/CRISPDM.png)
+![addProj](../images/CRISPDM.png)
 
 **Business Understanding** Disaster response organizations have to to filter and pull out the most important messages from this huge amount of communications. Organizations do not have enough time to filter out these many messages manually.In this project we will use machine learning to analyze the text messages and communication into different categories like medical supplies, food, or block road.
 
